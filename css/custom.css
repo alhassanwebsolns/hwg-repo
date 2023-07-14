@@ -1,0 +1,30 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+.dropdown-langs .dropdown-item {
+	font-size: 14px;
+}
+
+.dropdown-langs img {
+	margin-right: 8px;
+	width: 18px;
+	height: 18px;
+}
+
+.dropdown-langs .dropdown-toggle::after {
+	position: relative;
+	font-family: 'bootstrap-icons';
+	content: "\F229";
+	font-size: 10px;
+	top: 3px;
+	border: 0;
+	color: #666;
+	margin-left: -5px;
+}
+
+
+
